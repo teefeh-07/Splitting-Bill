@@ -1,6 +1,28 @@
 # BillSplit Protocol
 
+[![CI/CD Pipeline](https://github.com/teefeh-07/Splitting-Bill/actions/workflows/ci.yml/badge.svg)](https://github.com/teefeh-07/Splitting-Bill/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Stacks](https://img.shields.io/badge/Stacks-Blockchain-purple.svg)](https://stacks.co/)
+[![Clarity](https://img.shields.io/badge/Clarity-Smart%20Contracts-blue.svg)](https://clarity-lang.org/)
+[![Version](https://img.shields.io/github/package-json/v/teefeh-07/Splitting-Bill)](https://github.com/teefeh-07/Splitting-Bill)
+[![Issues](https://img.shields.io/github/issues/teefeh-07/Splitting-Bill)](https://github.com/teefeh-07/Splitting-Bill/issues)
+
 A decentralized restaurant bill splitting platform built on the Stacks blockchain, enabling secure and transparent bill sharing among multiple participants.
+
+> 🚀 **Latest Version**: v2.1.0 | **Status**: Active Development | **Network**: Stacks Testnet Ready
+
+## 📋 Table of Contents
+
+- [Features](#-features)
+- [Architecture](#️-architecture)
+- [Getting Started](#-getting-started)
+- [Usage Guide](#-usage-guide)
+- [Configuration](#-configuration)
+- [Testing](#-testing)
+- [Security](#️-security-considerations)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Support](#-support)
 
 ## 🌟 Features
 
@@ -213,18 +235,84 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🤝 Contributing
 
+We welcome contributions from the community! Please read our [Contributing Guidelines](CONTRIBUTING.md) for detailed information on how to contribute.
+
+### Quick Start for Contributors
+
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
+### Development Setup
+
+```bash
+# Clone your fork
+git clone https://github.com/YOUR_USERNAME/Splitting-Bill.git
+cd Splitting-Bill
+
+# Install dependencies
+npm install
+
+# Run tests
+npm test
+
+# Start development
+npm run dev
+```
+
+For detailed contributing guidelines, code style, and development workflow, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## 📞 Support
 
 For support and questions:
-- Create an issue in the GitHub repository
-- Contact the SplitBill Team
+- 🐛 [Create an issue](https://github.com/teefeh-07/Splitting-Bill/issues) for bugs and feature requests
+- 💬 [GitHub Discussions](https://github.com/teefeh-07/Splitting-Bill/discussions) for questions and community chat
+- 📖 Check our [documentation](README.md) and [contributing guidelines](CONTRIBUTING.md)
+- 📧 Contact: [boluwatifeoniyilo@gmail.com](mailto:boluwatifeoniyilo@gmail.com)
+
+## 🗺️ Roadmap
+
+### Phase 1 (Current) - Core Platform ✅
+- [x] Smart contract implementation
+- [x] Basic bill splitting functionality
+- [x] Restaurant registration system
+- [x] Comprehensive testing suite
+
+### Phase 2 - Enhanced Features 🚧
+- [ ] Multi-currency support
+- [ ] Mobile-friendly web interface
+- [ ] Advanced dispute resolution
+- [ ] Restaurant analytics dashboard
+
+### Phase 3 - Ecosystem Growth 📋
+- [ ] Integration with popular restaurant POS systems
+- [ ] Loyalty rewards program
+- [ ] Cross-chain compatibility
+- [ ] Mobile applications (iOS/Android)
+
+## 🏆 Acknowledgments
+
+- [Stacks Foundation](https://stacks.org/) for the blockchain infrastructure
+- [Clarinet](https://github.com/hirosystems/clarinet) for development tools
+- [Hiro Systems](https://hiro.so/) for the excellent developer experience
+- The Stacks community for support and feedback
+
+## 📊 Project Stats
+
+- **Smart Contract Language**: Clarity v2
+- **Test Coverage**: >90%
+- **Security Audits**: In Progress
+- **Deployment Networks**: Stacks Testnet Ready
+- **License**: MIT Open Source
 
 ---
 
-**Built with ❤️ by the SpillBill Team**
+<div align="center">
+
+**Built with ❤️ by [Boluwatife Oniyilo](https://github.com/teefeh-07)**
+
+[⭐ Star this repo](https://github.com/teefeh-07/Splitting-Bill) • [🐛 Report Bug](https://github.com/teefeh-07/Splitting-Bill/issues) • [✨ Request Feature](https://github.com/teefeh-07/Splitting-Bill/issues)
+
+</div>

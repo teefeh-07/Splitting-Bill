@@ -1,18 +1,60 @@
-
 {
-  "name": "billsplit-protocol-tests",
-  "version": "2.0.0",
-  "description": "Comprehensive test suite for BillSplit Protocol - A decentralized restaurant bill splitting platform",
+  "name": "billsplit-protocol",
+  "version": "2.1.0",
+  "description": "A decentralized restaurant bill splitting platform built on the Stacks blockchain, enabling secure and transparent bill sharing among multiple participants",
   "type": "module",
   "private": true,
+  "keywords": [
+    "stacks",
+    "blockchain",
+    "clarity",
+    "bill-splitting",
+    "restaurant",
+    "payments",
+    "defi",
+    "smart-contracts"
+  ],
+  "homepage": "https://github.com/teefeh-07/Splitting-Bill#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teefeh-07/Splitting-Bill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/teefeh-07/Splitting-Bill/issues"
+  },
   "scripts": {
     "test": "vitest run",
     "test:report": "vitest run -- --coverage --costs",
     "test:watch": "chokidar \"tests/**/*.ts\" \"contracts/**/*.clar\" -c \"npm run test:report\"",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "test:ui": "vitest --ui",
+    "dev": "clarinet console",
+    "build": "clarinet check",
+    "lint": "clarinet check --format",
+    "deploy:devnet": "clarinet deploy --devnet",
+    "deploy:testnet": "clarinet deploy --testnet",
+    "console": "clarinet console",
+    "check": "clarinet check",
+    "format": "clarinet check --format",
+    "clean": "rm -rf .cache coverage",
+    "prepare": "npm run check"
   },
-  "author": "DineChain Team",
+  "author": {
+    "name": "Boluwatife Oniyilo",
+    "email": "boluwatifeoniyilo@gmail.com",
+    "url": "https://github.com/teefeh-07"
+  },
+  "contributors": [
+    {
+      "name": "DineChain Team",
+      "url": "https://github.com/teefeh-07/Splitting-Bill"
+    }
+  ],
   "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
   "dependencies": {
     "@hirosystems/clarinet-sdk": "^2.3.2",
     "@stacks/transactions": "^6.12.0",
@@ -21,5 +63,10 @@
     "vite": "^5.1.4",
     "vitest": "^1.3.1",
     "vitest-environment-clarinet": "^2.0.0"
+  },
+  "devDependencies": {},
+  "clarinet": {
+    "version": "2.0.0",
+    "contracts": ["BillSplitProtocol"]
   }
 }
