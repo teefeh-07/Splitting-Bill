@@ -1,12 +1,12 @@
 [project]
-name = 'Splitting-Bill'
-description = ''
-authors = []
+name = 'BillSplit-Protocol'
+description = 'A decentralized restaurant bill splitting platform on Stacks blockchain'
+authors = ['DineChain Team']
 telemetry = true
 cache_dir = './.cache'
 requirements = []
-[contracts.DineChain]
-path = 'contracts/DineChain.clar'
+[contracts.BillSplitProtocol]
+path = 'contracts/BillSplitProtocol.clar'
 clarity_version = 2
 epoch = 2.5
 [repl.analysis]

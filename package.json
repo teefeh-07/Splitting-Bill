@@ -1,17 +1,18 @@
 
 {
-  "name": "Splitting-Bill-tests",
-  "version": "1.0.0",
-  "description": "Run unit tests on this project.",
+  "name": "billsplit-protocol-tests",
+  "version": "2.0.0",
+  "description": "Comprehensive test suite for BillSplit Protocol - A decentralized restaurant bill splitting platform",
   "type": "module",
   "private": true,
   "scripts": {
     "test": "vitest run",
     "test:report": "vitest run -- --coverage --costs",
-    "test:watch": "chokidar \"tests/**/*.ts\" \"contracts/**/*.clar\" -c \"npm run test:report\""
+    "test:watch": "chokidar \"tests/**/*.ts\" \"contracts/**/*.clar\" -c \"npm run test:report\"",
+    "test:coverage": "vitest run --coverage"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "DineChain Team",
+  "license": "MIT",
   "dependencies": {
     "@hirosystems/clarinet-sdk": "^2.3.2",
     "@stacks/transactions": "^6.12.0",
